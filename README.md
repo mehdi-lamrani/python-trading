@@ -35,7 +35,7 @@ Classes that need to be implemented :
  - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface <br>
    (**ask trainer for a demo and code**)
    
- - Do NOT forget to use proper logging and debugging as demo'ed by the trainer<br>
+ - Do NOT forget to use **proper logging and debugging** as demo'ed by the trainer<br>
  
  - **Write Adequate Tests**. (No, That is not "optional"...)
    Do not forget to split the work : if one partners codes, the other writes the corresponding tests (simultaneously) , then alternate.
