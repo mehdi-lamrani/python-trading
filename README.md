@@ -36,7 +36,7 @@ Classes that need to be implemented :
    
  - Do NOT forget to use proper logging and debugging as demo'ed by the trainer<br>
  
- - **Write Tests**. (No, That is not "optional")
+ - **Write Adequate Tests**. (No, That is not "optional"...)
  
  - **Implement a Trading Log File** that keeps track of all performed operation<br>
    IRL this file is mandatory fo auditing the trading institution and is sent to regulation authorities.
