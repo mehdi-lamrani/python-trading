@@ -23,7 +23,7 @@ Classes that need to be implemented :
 - Retrieve a daily price CSV files for a stock
 - Load it in a Pandas Dataframe
 - iterate over the CSV and send each daily price to the console or gui to give the user (trader) the opportunity to buy sell or pass.
-- Use DataFrame.iterrows to iterate over the CSV and iteratively fire the price for each day 
+- Use DataFrame.iterrows to iterate over the CSV and iteratively fire the price for each day <br>
   it is a *generator which yields both the index and row (as a Series):
   ```
   df = pd.DataFrame({'c1': [10, 11, 12], 'c2': [100, 110, 120]})
@@ -31,5 +31,5 @@ Classes that need to be implemented :
   for index, row in df.iterrows():
     print(row['c1'], row['c2'])
   ```
- - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface 
+ - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface <br>
    (**ask trainer for a demo and code**)
