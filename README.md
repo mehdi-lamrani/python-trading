@@ -17,3 +17,18 @@ Classes that need to be implemented :
 - Exceptions
 
 - A test class that reads a Daily Stock Price CSV file (you can get that directly though ***alphavantage.co*** API that we will be using later), and give the user the possibilitu to either Buy, Sell, or Pass, for every day in the dataset, while tracking his balance
+
+### Hints for implementation ###
+
+- Retrieve a daily price CSV files for a stock
+- Load it in a Pandas Dataframe
+- iterate over the CSV and send the price to the console or gui to give the user (trader) the opportunity to buy sell or pass.
+- Use DataFrame.iterrows to iterate over the CSV and iteratively fire the price for each day 
+  it is a *generator which yields both the index and row (as a Series):
+  ```
+  df = pd.DataFrame({'c1': [10, 11, 12], 'c2': [100, 110, 120]})
+
+  for index, row in df.iterrows():
+    print(row['c1'], row['c2'])
+  ```
+ - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface (ask trainer)
