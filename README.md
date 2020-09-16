@@ -39,4 +39,16 @@ Classes that need to be implemented :
  - **Implement a Trading Log File** that keeps track of all performed operation<br>
    IRL this file is mandatory fo auditing the trading institution and is sent to regulation authorities.
    
+### Pride Contest ###  
+
+  - One or Two groups shall demo their trading interface and shall have the privilege of our gratitude and admiration.
+  - All Projects shall be sent to the trainer and audited by the last day
+  - The coolest programs win the following prizes : 
+        - most clean & readable code
+        - most robust code
+        - most intuitive interface
+        - most humorous version (honour prize :-) )
+  
+  ***You're Now On, PLACE YOUR BETS !*** 
+   
  
