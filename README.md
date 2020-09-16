@@ -20,9 +20,10 @@ Classes that need to be implemented :
 
 ### Hints for implementation ###
 
-- Retrieve a daily price CSV files for a stock<br>
+- Retrieve a daily price CSV file for a stock<br>
 - Load it in a Pandas Dataframe<br>
 - iterate over the CSV and send each daily price to the console or gui to give the user (trader) the opportunity to buy sell or pass.<br>
+  (this will simulate a realtime stream.)
 - Use DataFrame.iterrows to iterate over the CSV and iteratively fire the price for each day <br>
   it is a *generator* which yields both the index and row (as a Series):
   ```
