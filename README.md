@@ -36,6 +36,8 @@ Classes that need to be implemented :
    
  - Do NOT forget to use proper logging and debugging as demo'ed by the trainer<br>
  
+ - Write Tests. (No, That is not "optional")
+ 
  - **Implement a Trading Log File** that keeps track of all performed operation<br>
    IRL this file is mandatory fo auditing the trading institution and is sent to regulation authorities.
    
@@ -45,7 +47,7 @@ Classes that need to be implemented :
   - All Projects shall be sent to the trainer and audited by the last day
   - The coolest programs win the following prizes : 
         - most clean & readable code
-        - most robust code
+        - most robust& well tested code
         - most intuitive interface
         - most humorous version (honour prize :-) )
   
