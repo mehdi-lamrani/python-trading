@@ -33,3 +33,10 @@ Classes that need to be implemented :
   ```
  - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface <br>
    (**ask trainer for a demo and code**)
+   
+ - Do NOT forget to use proper logging and debugging as demo'ed by the trainer<br>
+ 
+ - **Implement a Trading Log File** that keeps track of all performed operation<br>
+   IRL this file is mandatory fo auditing the trading institution and is sent to regulation authorities.
+   
+ 
