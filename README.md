@@ -31,4 +31,5 @@ Classes that need to be implemented :
   for index, row in df.iterrows():
     print(row['c1'], row['c2'])
   ```
- - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface (ask trainer)
+ - Use the provided code for a minimalistic console stub/example for managing user input & text-based interface 
+   (**ask trainer for a demo and code**)
